@@ -1,0 +1,27 @@
+{
+  "name": "discord-economy-bot",
+  "version": "1.0.0",
+  "description": "Complete Discord Economy Bot by Umbra X Development - https://discord.gg/Whq4T2vYPP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm i node i1.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord", "bot", "economy", "mongodb", "umbra-x"],
+  "author": "Umbra X Development",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://discord.gg/Whq4T2vYPP"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "mongoose": "^8.1.0",
+    "dotenv": "^16.3.1",
+    "ms": "^2.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
